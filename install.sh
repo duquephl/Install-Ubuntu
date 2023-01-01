@@ -12,6 +12,7 @@ sudo apt install stacer
 sudo apt install nemo-megasync
 sudo apt install qbittorrent
 sudo apt install synaptic
+snap install spotify
 sudo apt-get update
 sudo apt-get install \
     ca-certificates \
@@ -27,6 +28,7 @@ sudo apt-get update
 sudo chmod a+r /etc/apt/keyrings/docker.gpg
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo usermod -aG docker $USER
 sudo apt install curl git
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.2
 sudo apt-get install dirmngr gpg curl gawk
@@ -41,5 +43,8 @@ sudo apt-get install papirus-icon-theme
 sudo apt install gir1.2-gtop-2.0 gir1.2-gudev-1.0
 sudo add-apt-repository ppa:slimbook/slimbook
 sudo apt update && sudo apt install slimbookbattery
-
-
+snap remove firefox snap-store
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt install nvidia-driver-525
+sudo apt-get update
+sudo apt-get upgrade
