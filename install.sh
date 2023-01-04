@@ -1,4 +1,5 @@
 sudo apt update && sudo apt upgrade
+sudo dpkg --add-architecture i386 
 sudo apt install gnome-tweaks
 sudo apt install gnome-software gnome-software-common gnome-software-plugin-flatpak gnome-software-plugin-snap
 sudo apt install ubuntu-restricted-extras
@@ -9,7 +10,6 @@ sudo apt install steam
 sudo apt install curl
 sudo apt install gdebi
 sudo apt install stacer
-sudo apt install nemo-megasync
 sudo apt install qbittorrent
 sudo apt install synaptic
 snap install spotify
@@ -48,3 +48,12 @@ sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt install nvidia-driver-525
 sudo apt-get update
 sudo apt-get upgrade
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt update
+sudo apt-get update && sudo apt-get install obs-studio
+sudo apt remove nautilus
+sudo mkdir -pm755 /etc/apt/keyrings
+sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+sudo apt update
+sudo apt install --install-recommends winehq-stable
