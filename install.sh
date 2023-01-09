@@ -58,3 +58,4 @@ sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/
 sudo apt update
 sudo apt install --install-recommends winehq-stable
 sudo apt-get install gnome-screenshot
+sudo apt-get install gdal-bin
