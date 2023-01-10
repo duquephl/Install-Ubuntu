@@ -60,3 +60,4 @@ sudo apt install --install-recommends winehq-stable
 sudo apt-get install gnome-screenshot
 sudo apt-get install gdal-bin
 sudo apt-get install redis
+snap install shotcut --classic
