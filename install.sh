@@ -12,6 +12,7 @@ sudo apt install gdebi
 sudo apt install stacer
 sudo apt install qbittorrent
 sudo apt install synaptic
+sudo apt install xdg-desktop-portal-gnome
 snap install spotify
 sudo apt-get update
 sudo apt-get install \
