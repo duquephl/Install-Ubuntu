@@ -37,7 +37,6 @@ asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf plugin-add python
 sudo apt-get install linux-headers-$(uname -r) build-essential libssl-dev libreadline-dev zlib1g-dev libcurl4-openssl-dev uuid-dev icu-devtools
 asdf plugin-add postgres
-sudo apt install cinnamon --no-install-recommends
 sudo add-apt-repository ppa:papirus/papirus
 sudo apt-get update
 sudo apt-get install papirus-icon-theme
@@ -52,7 +51,6 @@ sudo apt-get upgrade
 sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt update
 sudo apt-get update && sudo apt-get install obs-studio
-sudo apt remove nautilus
 sudo mkdir -pm755 /etc/apt/keyrings
 sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
 sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
