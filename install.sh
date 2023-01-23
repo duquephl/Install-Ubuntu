@@ -60,3 +60,4 @@ sudo apt-get install gnome-screenshot
 sudo apt-get install gdal-bin
 sudo apt-get install redis
 snap install shotcut --classic
+sudo apt install gnome-tweaks gnome-shell-extension-manager gnome-shell-extensions
