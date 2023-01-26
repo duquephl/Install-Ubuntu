@@ -61,3 +61,10 @@ sudo apt-get install gdal-bin
 sudo apt-get install redis
 snap install shotcut --classic
 sudo apt install gnome-tweaks gnome-shell-extension-manager gnome-shell-extensions
+sudo apt install nemo
+sudo apt remove nautlius
+xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
+gsettings set org.gnome.desktop.background show-desktop-icons false
+gsettings set org.nemo.desktop show-desktop-icons true
+xdg-mime query default inode/directory
+
